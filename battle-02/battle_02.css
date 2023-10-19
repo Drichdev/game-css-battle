@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #62374e;
+  }
+  .content{
+    margin: 50px;
+    width: 400px;
+    height: 300px;
+  }
+  div{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+  }
+  #one{
+    background: #fdc57b;
+  }
+  #two{
+    right: 100;
+    background: #fdc57b;
+  }
+  #three{
+    background: #fdc57b;
+    bottom: 100;
+  }
+  #four{
+    bottom: 100;
+    right: 100;
+    background: #fdc57b;
+  }
