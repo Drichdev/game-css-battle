@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #E3516E;
+  }
+  .content{
+    width: 400px;
+    height: 300px;
+  }
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #first{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    clip-path: circle();
+
+  }
+  .one{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #51B5A9;
+    border-radius: 60px 0 0px 0px;
+  }
+    .two{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #FADE8B;
+    border-radius: 0 60px  0 0 ;
+  }
+    .three{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #F7F3D7;
+    border-radius: 0 0 0 60px;
+  }
