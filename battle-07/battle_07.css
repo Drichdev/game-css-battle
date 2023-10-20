@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #0B2429;
+  }
+  .content{
+    width: 400px;
+    height: 300px;
+  }
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #first{
+    z-index: 100;
+    position: relative;
+    width: 250px;
+    height: 150px;
+  }
+  .one{
+    left: 0;
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    background: #1A4341;
+    border-radius: 100px 0 100px 0;
+  }
+    .two{
+    top: 0;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #998235;
+    border-radius: 100px 0 100px 0;
+  }
+    .three{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #F3AC3C;
+    border-radius: 100px 0 100px 0px;
+  }
