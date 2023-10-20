@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #6592CF;
+  }
+  .content{
+    width: 400px;
+    height: 300px;
+  }
+  div{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  
+  #first{
+    z-index: 100;
+    position: relative;
+    width: 140px;
+    height: 250px;
+  }
+  .main{
+    bottom: 0;
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    background: #060F55;
+  }
+    .paume{
+    bottom: 50 ;
+    position: absolute;
+    width: 140px;
+    height: 100px;
+    background: #060F55;
+    border-radius:  0 0 100px 100px;
+  }
+    #one{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    border-radius:  50px  50px 0 0 ;
+
+  }
+  
+   #two{
+    top: 0;
+    left: 20;
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background: #6592CF;
+    border-radius: 0 0 50px  50px ;
+  }
+     #three{
+    top: 0;
+    left: 40;
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    border-radius: 50px  50px 0 0 ;
+  }
+     #four{
+    top: 0;
+    left: 60;
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background: #6592CF;
+    border-radius: 0 0 50px  50px ;
+  }
+     #five{
+    top: 0;
+    left: 80;
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    border-radius: 50px  50px 0 0 ;
+  }
+     #six{
+    top: 0;
+    left: 100;
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    border-radius: 0 0 50px  50px ;
+  }
+    #seven{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 20px;
+    height: 110px;
+    background: #060F55;
+    border-radius: 50px  50px 0 0 ;
+  }
