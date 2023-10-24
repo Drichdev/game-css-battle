@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #62306D;
+  }
+  .content{
+    width: 400px;
+    height: 300px;
+  }
+  div{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  
+  #bloc{
+    width: 300px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+  #bloc-2{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background: #F7EC7D;
+  }
+    .rond-1{
+    top: 25;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    background: #E38F66;
+    clip-path: circle();
+  }
+    #rond-1-m{
+    top: 45;
+    z-index: 2;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    clip-path: circle();
+    background: #AA445F;
+  }
+    .rond-2{
+    left: 50;
+    bottom: 25;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    background: #AA445F;
+    clip-path: circle();
+  }
+    #rond-2-m{
+    top: 45;
+    z-index: 2;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    clip-path: circle();
+    background: #E38F66;
+  }
+    .rond-3{
+    right: 50;
+    bottom: 25;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    background: #AA445F;
+    clip-path: circle();
+  }
+    #rond-3-m{
+    top: 45;
+    z-index: 2;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    clip-path: circle();
+    background: #E38F66;
+  }
