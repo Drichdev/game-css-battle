@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #191210;
+  }
+  .content{
+    width: 400px;
+    height: 300px;
+  }
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .big-rond{
+    width: 200px;
+    height: 140px;
+    background: #ECA03D;
+    clip-path: circle();
+  }
+  #rond{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background: #191210;
+    clip-path: circle();
+  }
+    #tall-rond{
+    z-index: 1;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #84271C;
+    clip-path: circle();
+  }
+    #m-rond-1{
+    bottom: 100;
+    left: 50;
+    position: absolute;
+    width: 60px;
+    height: 30px; 
+    border-bottom-left-radius: 110px; 
+    border-bottom-right-radius: 110px; 
+    border: 20px solid #ECA03D;
+    border-top: 0;
+  }
+    #m-rond-2{
+    top: 100;
+    right: 50;
+    position: absolute;
+    width: 60px;
+    height: 30px; 
+    border-top-left-radius: 110px; 
+    border-top-right-radius: 110px; 
+    border: 20px solid #ECA03D;
+    border-bottom: 0;
+  }
