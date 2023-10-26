@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background: #09042A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .one {
+    left: 50;
+    overflow: hidden;
+    position: relative;
+    background: #E78481;
+  }
+  .two {
+    right: 100;
+    position: absolute;
+    background: #09042A;
+  }
+
+  .circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .three{
+    left: 75;
+    z-index: -10;
+    position: absolute;
+    background: #7B3F61;
+  }
