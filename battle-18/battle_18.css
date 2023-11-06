@@ -1,3 +1,20 @@
-*{
-    margin: 0;
-}
+body{
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px 0 ;
+    background: #5C434C;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 20px ;
+  }
+  .car{
+    border-radius: 100% 0 0 0;
+    width: 80px;
+    height: 80px;
+    background: #F09462;
+    margin: 0px;
+  }
+
+  .b,.d,.e,.g,.j,.l{
+    background: #F5D6B4;
+  }
